@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif; ;
+}
+section{
+    height: 400px;
+   padding: 20px;
+    
+    
+}
+h1{
+    color: rgb(31, 255, 1);
+}
+span{
+    color:orangered;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.intro{
+    display: flex;
+}
+.dr{
+    background-image: url("images/back3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.intro .descrip{
+    width: 50%;
+    padding: 10px ;
+
+}
+.intro .imgbx{
+    width: 50%;
+    padding: 10px;
+    margin-left: 20px;
+  
+}
+.intro .imgbx img{
+    width: 100%;
+    height: 95%;
+ 
+}
+.btn{
+    text-decoration: none;
+    align-items: center;
+    background-image: linear-gradient(50deg,yellow,rgb(0, 255, 0));
+    margin-left: 25%;
+    padding: 10px 10px;
+    border-radius: 10%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: red;
+    
+}
+.bg{
+   background-image: url("images/back2.jpg");
+  background-size: cover;
+   background-repeat: no-repeat;
+}
+.label{
+    text-align: center;
+  padding: 40px;
+   height: 100px;
+   margin:20px ;
+   background-color: blueviolet;
+ 
+}
+.dish{ 
+    display: flex;
+  
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+
+   
+}
+.card{ 
+    width:50%;
+    box-sizing: border-box;
+    margin: 5%;
+    box-shadow: 8px 15px 15px gray;
+    padding: 2%;
+    border-radius: 5px;
+    height:310px;
+   
+}
+.imb{ 
+    width: 100%;
+    height: 50%;
+    padding: 3px;
+    border-radius: 10px;
+    text-align: center;
+}
+.body{
+
+}
+footer{
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+}
+.hi{
+    color: chartreuse;
+}
