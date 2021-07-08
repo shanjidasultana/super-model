@@ -94,6 +94,16 @@ span{
     text-align: center;
 }
 .body{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.label2{
+    text-align: center;
+  padding: 20px;
+   height: 90px;
+   margin:20px ;
+   background-color:burlywood;
+   color: darkblue;
 
 }
 footer{
